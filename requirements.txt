@@ -1,0 +1,40 @@
+# Core libraries for file handling and system interaction
+psutil
+pathlib2
+
+# Regex utilities
+regex
+
+# Sentence Transformers for NLP tasks
+sentence-transformers
+
+# Hugging Face Transformers library
+transformers
+torch
+torchvision
+torchaudio
+
+# LangChain for advanced document processing and chaining
+langchain
+langchain-community
+langchain-chroma
+
+# Text loading utilities
+PyPDF2
+docx2txt
+unstructured
+
+# Chroma library for advanced similarity search
+chromadb
+
+# Callback handlers for LangChain
+llama-cpp-python
+
+# Additional tools for efficient file processing
+pdfminer.six
+
+# General-purpose utilities
+tqdm
+numpy
+pandas
+scipy
