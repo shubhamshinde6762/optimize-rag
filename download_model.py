@@ -4,7 +4,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 def download_model(
-    repo_id: str = "TheBloke/Llama-2-13B-chat-GGUF",  # Updated repo
+    repo_id: str = "TheBloke/Llama-2-13B-chat-GGUF" , # Updated repo
     filename: str = "llama-2-13b-chat.Q4_K_M.gguf",   # Updated filename
     local_dir: str = "models"
 ):
@@ -12,6 +12,7 @@ def download_model(
     Download a model from Hugging Face Hub with progress bar
     """
     os.makedirs(local_dir, exist_ok=True)
+    
     
     print(f"Downloading {filename} from {repo_id}...")
     print("This might take a while depending on your internet speed...")
